@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #800080;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    cursor: pointer; /* Menampilkan kursor sebagai tanda bahwa elemen dapat diklik */
+}
+
+header h1:hover {
+    color: #ccc; /* Mengubah warna teks saat elemen dihover */
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 10px auto 20px auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #4b0082;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #6a5acd;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+/* Card */
+
+.members {
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 9.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    margin: 20px 20px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    color: #800080;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform ease-in-out 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #800080;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
